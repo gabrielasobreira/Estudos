@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header{
+   text-align: center;
+   color: white;
+   background-image:linear-gradient(to bottom,#14BA62,#0C6E3A);
+   font-family: 'Oswald';
+   padding: 5px;
+}
+
+header>h1{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+}
+
+header>p{
+    font-weight: lighter;
+}
+
+header>nav{
+    text-align: left;    
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+nav>a:hover{
+    background-color: #14BA62;
+    color: #0C6E3A;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+main{
+    background-color: #65F59B;
+    padding: 10px;
+    
+}
+
+main>div#main{
+    background-color: white;
+    width: 60vw;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#main>h1,h2{
+    font: normal 16pt idroid;
+    color: #0C6E3A;
+    text-align: left;
+}
+
+#main>h2{
+    background-image: linear-gradient(to right, #AFF7CA,white);
+}
+
+#main>p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+p>a{
+    color: #0C6E3A;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+p>a::after{
+    content: '🔗';
+}
+
+p>a:hover{
+    text-decoration: underline;
+}
+
+#video{
+    background-color: #0C6E3A;
+    padding: 0px;
+    width: auto;
+}
+
+#extra{
+    background-color:#AFF7CA ;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 8px;
+    margin-top: 16px;
+    text-indent: 20px;
+}
+
+#extra>h1{
+    background-color: #14BA62;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#extra>ul>li{
+    display: inline;
+}
+
+#extra>ul>li::before{
+    content: ' ✔️';
+}
+
+footer{
+    background-color: #0C6E3A;
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    padding: 5px;
+}
+
+footer>p{
+    margin: 0px;
+}
+
+strong{
+    color: #0C6E3A;
+}
